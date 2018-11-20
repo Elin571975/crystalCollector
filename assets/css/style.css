@@ -1,0 +1,90 @@
+body{
+  font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  }
+
+ h1{                          /*how to the text align vertically?*/
+    background-color: white;
+    color: green;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    width: 1300px;
+    padding: 1%;
+    margin: 0 auto;
+    position: fixed;
+    top: 20px;
+   }
+
+p{
+    margin: 5px;
+    padding: 2px;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+}
+
+.container1{
+    font-size: 14px;
+    background-color: white;
+    text-align: left;
+    vertical-align: middle;
+    padding: 1%;
+    height: 180px;
+    width: 1150px;
+    position: fixed;
+    top: 150px;
+    left: 70px;
+}
+
+.container2{
+    font-size: 14px;
+    background-color: white;
+    text-align: left;
+    vertical-align: middle;
+    padding: 1%;
+    height: 280px;
+    width: 1150px;
+    position: fixed;
+    top: 345px;
+    left: 70px;
+}
+
+.crystals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 200px; */
+    position: relative;
+    top: 400px;
+    left: 170px;
+}
+
+.crystal{
+    border: 5px solid green;
+    width: 180px;
+    height: 180px;
+    margin: 0.5%;
+    box-shadow: 15px 15px 15px rgba(0,0,0, 0.5);
+   }
+
+.crystal:hover{
+    box-shadow: 15px 15px 15px rgba(0,0,0, 0.5);
+    transform: translate(5px, 10px);
+    cursor: pointer;  /*cursor turns into a hand*/
+    /* transition: box-shadow 1s, transform 2s; *  
+}
+
+
+
+
+
+
+
